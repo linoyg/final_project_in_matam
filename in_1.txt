@@ -1,0 +1,120 @@
+g={}
+print(g)
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+print(G1)
+reset
+G2 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G21 = G2
+who
+delete(G21)
+who
+reset
+who
+print(G3)
+reset
+G = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+print(G)
+reset
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G2 = !G1
+print(G2)
+reset
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G2 = {v1, v4 | <v1, v4>}
+G3 = G1 + G2
+print(G3)
+reset
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G2 = {v1, v4 | <v1, v4>}
+G3 = G1 - G2
+print(G3)
+reset
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G2 = {v1, v4 | <v1, v4>}
+G3 = G1 ^ G2
+print(G3)
+reset
+G1 = {v1, v2, v3 | <v1, v2>, <v1, v3>}
+G2 = {v5, v6 | <v5, v6>}
+G3 = G1 * G2
+print(G3)
+reset
+G = {a, c | }
+G1 = {b | }
+G2 = {d | }
+G4 = G+G1+G2
+print(G4)
+reset
+G1 = {a | }
+G2 = G1 - {a | }
+print(G2)
+reset
+G = {a, b | <a, b>}
+G1 = {c | } + G
+print(G1)
+reset
+G1 = {a, b | }
+G2 = {c | }
+G3 = {a | }
+G4 = G1+(G2-G3)
+print(G4)
+reset
+G2={DLF% , DG}
+1F={}
+dfc2(d ={}
+g1={x1,x2}
+wnmf*f=g1
+g2={2sf,fmkg3,cm3 | <2sf,fmkg3> , <fmkg3,cm3> }
+g2=g2+g1
+print(g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g1=g1+g1
+print(g1)
+print(g1+g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g3={x3,x2 |<x3,x2>}
+print(g1+g2*g3)
+print(g3)
+print(g31)
+print(g1)
+print(g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g3={x3,x2 |<x3,x2>}
+print(g1+(g2*g3))
+g4=g1+(g2*g3)
+delete(g2)
+who
+print(g4)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3=g1+(!g2)
+print(g3)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3=g1+!g2
+print(g3)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3={x1,x2 |}
+g4=g1+(!(g2+g3))
+print(g4)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3={x1,x2 |}
+g4=g1+!(g2+g3)
+print(g4)
+who
+reset
+G6 ={a  , Y,   X }
+print(G6+!(G6))()
+

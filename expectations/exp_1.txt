@@ -1,0 +1,190 @@
+$
+Error: invalidName
+Error: invalidName
+Error: Invalid_Sentence
+Error: Invalid_Sentence
+2sf
+cm3
+fmkg3
+x1
+x2
+$
+2sf fmkg3
+fmkg3 cm3
+x1
+x2
+$
+x1
+x2
+$
+x1 x2
+[x1;x2]
+[x1;x3]
+[x2;x2]
+[x2;x3]
+$
+[x1;x3] [x2;x2]
+x2
+x3
+$
+x3 x2
+Error: THE_GRAPH_IS_NOT_EXISTS
+x1
+x2
+$
+x1
+x2
+$
+x1 x2
+[x1;x2]
+[x1;x3]
+[x2;x2]
+[x2;x3]
+x1
+x2
+$
+[x1;x3] [x2;x2]
+g1
+g3
+g4
+[x1;x2]
+[x1;x3]
+[x2;x2]
+[x2;x3]
+x1
+x2
+$
+[x1;x3] [x2;x2]
+x1
+x2
+x3
+$
+x1 x3
+x2 x1
+x1
+x2
+x3
+$
+x1 x3
+x2 x1
+x1
+x2
+x3
+$
+x1 x3
+x2 x1
+x1
+x2
+x3
+$
+x1 x3
+x2 x1
+g1
+g2
+g3
+g4
+Error: invalidName
+Error: Invalid_Sentence
+Error: invalidName
+$
+$
+$
+b1
+b2
+$
+b1 b2
+a
+b
+c
+a
+c
+Error: THE_GRAPH_IS_NOT_EXISTS
+$
+$
+Error: InvalidDefinition
+Error: InvalidDefinition
+Error: Invalid_Sentence
+3
+a
+b
+quit
+t
+vfg
+$
+3 quit
+t a
+sh6nfmd
+Error: invalidName
+[b;1]
+[b;2]
+[b;3]
+[b;6]
+[b;A]
+[b;P]
+[b;a]
+[b;r]
+[c;1]
+[c;2]
+[c;3]
+[c;6]
+[c;A]
+[c;P]
+[c;a]
+[c;r]
+[d;1]
+[d;2]
+[d;3]
+[d;6]
+[d;A]
+[d;P]
+[d;a]
+[d;r]
+[diff;1]
+[diff;2]
+[diff;3]
+[diff;6]
+[diff;A]
+[diff;P]
+[diff;a]
+[diff;r]
+$
+[b;1] [c;P]
+[b;1] [d;P]
+[b;2] [c;a]
+[b;2] [d;a]
+[b;6] [c;1]
+[b;6] [c;2]
+[b;6] [d;1]
+[b;6] [d;2]
+[c;1] [b;P]
+[c;1] [d;P]
+[c;2] [b;a]
+[c;2] [d;a]
+[c;6] [b;1]
+[c;6] [b;2]
+[c;6] [d;1]
+[c;6] [d;2]
+[d;1] [b;P]
+[d;1] [c;P]
+[d;2] [b;a]
+[d;2] [c;a]
+[d;6] [b;1]
+[d;6] [b;2]
+[d;6] [c;1]
+[d;6] [c;2]
+g1
+sh6nfmd
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: invalidName
+Error: InvalidDefinition
+Error: Invalid_Sentence
+Error: invalidName
+Error: InvalidDefinition
+Error: invalidName
+Error: invalidName

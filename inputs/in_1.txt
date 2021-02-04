@@ -1,0 +1,141 @@
+g={}
+print(g)
+reset
+G2={DLF% , DG}
+1F={}
+dfc2(d ={}
+g1={x1,x2}
+wnmf*f=g1
+g2={2sf,fmkg3,cm3 | <2sf,fmkg3> , <fmkg3,cm3> }
+g2=g2+g1
+print(g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g1=g1+g1
+print(g1)
+print(g1+g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g3={x3,x2 |<x3,x2>}
+print(g1+g2*g3)
+print(g3)
+print(g31)
+print(g1)
+print(g2)
+reset
+g1={x1,x2}
+g2={x1,x2 |<x1,x2>}
+g3={x3,x2 |<x3,x2>}
+print(g1+(g2*g3))
+g4=g1+(g2*g3)
+delete(g2)
+who
+print(g4)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3=g1+(!g2)
+print(g3)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3=g1+!g2
+print(g3)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3={x1,x2 |}
+g4=g1+(!(g2+g3))
+print(g4)
+reset
+g1={x1,x3 | <x1,x3>}
+g2={x1,x2 |<x1,x2>}
+g3={x1,x2 |}
+g4=g1+!(g2+g3)
+print(g4)
+who
+reset
+G6 ={a  , Y,   X }
+print(G6+!(G6))()
+reset
+={v}
+g1={x1,x3 | <x2,x3>}
+a={v1,v2}
+a={}
+print(a)
+b={b1,b2| <b1,b2>}
+c=a-b
+print(c)
+print(a-b)
+print(b-a)
+who
+delete(b)
+who
+delete(b)
+reset
+print({}-!{}+{}^{})
+print(!{})
+reset
+g={c1,d3 d ff}
+g={c,ad|<c, a d>}
+//antil her my line 106 include
+sh6nfmd={vfg, 3, quit, a,b,   t| <t,a>,<   3, quit   >}
+print(sh6nfmd)
+who
+1={}
+g1= {diff     } + !({   a} +{b} +{c, a,d    |<a,c   >,<c, a> }  )-    {a}*{1,2,3 , a,r,6 ,A, P|<1,P>,<2,a>,<6,2>,<6,1>}
+print(g1)
+who
+save(g1-{[b;1]   ,[d;2]  }, checkpl.gf)
+a1={print, quit, save, load, delete, who, reset, quit}
+print={}
+save={}
+load={}
+delete={}
+who={}
+reset={}
+quit={}
+t={1,2,3|<1,2>,,}
+g3= {5,sdf[]g, [;] ,[fghdfg;fgh]}
+reset
+///david text 186
+empty={}
+space      = {             }
+space  =              {            |}
+spacVer = {  a,   , v | <a,v>}
+incorrect = {a,b,    c,  r| <a,r> , <a,b>   {}
+incorrect = {a,b,c,d,f| <a,b,  <a,d>,   <t,a   >
+VeryLong = {Pneumonoultramicroscopicsilicovolcanoconiosis,Pseudopseudohypoparathyroidism |<Pneumonoultramicroscopicsilicovolcanoconiosis,Pseudopseudohypoparathyroidism>}
+SpecialChars= {abc, daf, rt~%,  ^gf&| <^gf&, abc>  , <daf, rt~%>}
+Special2 = {;[];[;;]}
+OkSpecial = {[;],  [;;;;],  [],  [[[[[[]]];;]]]|<[[[[[[]]];;]]], []> }
+SpacesInVertex = {  ma tam}
+G_1 = {a,b}
+print(empty)
+print(VeryLong)
+print(OkSpecial)
+sum = OkSpecial + VeryLong
+g1 = {[;] , []|<[;],[]>   }
+difference = sum - g1
+product = VeryLong * empty
+complement = !empty
+complement2 = !VeryLong
+intersection= g1 ^ sum
+print(sum)
+print(difference)
+print(product)
+print(complement)
+print(complement2)
+print(intersection)
+g1 = {a,b|<a,b> , <b,a>}
+g2 = {c,d |<d,c>  }
+g3 = {f ,g|<f,g>}
+g4 = (g1+ g2*g3  )! + g1*g2
+ridiculousAmountOfParenthesis = ((g1) + (g2 * (g1)) -((g1+g2^g3) +(!g2))^(  (g2) - (g1 * g3)) + ( g1-(g3+g2*(g1+(g2-(g3^(!g2-g2)))))))
+print(ridiculousAmountOfParenthesis)
+print(!!g1)
+g2 = load(save(g1,g1.gc))
+print({x1,x2|<x2,x1>} ^ {x3,x1, x2  |<x2,   x1> , <x3,x1>})
+print({x1,x2|<x2,x1>) ^ {x3,x1, x2  |<x2,   x1> , <x3,x1>})
